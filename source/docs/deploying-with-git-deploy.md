@@ -13,7 +13,7 @@ process.
 ### Step 1: Generate a new SSH key
 
 First, generate a new, passwordless SSH key pair. Add the public SSH key to your
-server, by copying its content to your server's user `~/.authorized_keys` file.
+server, by copying its content to your server's user `~/.ssh/authorized_keys` file.
 
 The content of a public SSH key is typically located in `~/.ssh/id_rsa.pub` or
 `~/.ssh/id_dsa.pub` on your development machine.
